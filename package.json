@@ -1,0 +1,31 @@
+{
+  "name": "categorybot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "nodemon ./build/src/api/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/b00000001/categoryBot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/b00000001/categoryBot/issues"
+  },
+  "homepage": "https://github.com/b00000001/categoryBot#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "discord.js": "^14.7.1",
+    "dotenv": "^16.0.3",
+    "firebase": "^9.18.0",
+    "mssql": "^9.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
